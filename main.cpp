@@ -1,7 +1,21 @@
 #include <iostream>
+
 using namespace std;
 
 int main() {
-    cout << "Hello World" << endl;
-    return 0;
+
+    int Kartoshka = 8000, Piyoz = 5000, Olma=15000, Limon=25000, Pepsi = 10000;
+    float Product1, Product2, Product3, Product4, Product5;
+
+    cin>>Product1>>Product2>>Product3>>Product4>>Product5;
+    cout<<"Kartoshka = "<<Kartoshka*Product1<<endl;
+    cout<<"Piyoz = "<<Piyoz*Product2<<endl;
+    cout<<"Olma = "<<Olma*Product3<<endl;
+    cout<<"Limon = "<<Limon*Product4<<endl;
+    cout<<"Pepsi = "<<Pepsi*Product5<<endl;
+    int summa=Kartoshka*Product1+Piyoz*Product2+Olma*Product3+Limon*Product4+Pepsi*Product5;
+    cout<<"Jami = "<<summa<<endl;
+    cout<<"QQS = "<<summa*0.12<<endl;
+
+
 }
