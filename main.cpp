@@ -8,14 +8,14 @@ int main() {
     float Product1, Product2, Product3, Product4, Product5;
 
     cin>>Product1>>Product2>>Product3>>Product4>>Product5;
-    cout<<"Kartoshka = "<<Kartoshka*Product1<<endl;
-    cout<<"Piyoz = "<<Piyoz*Product2<<endl;
-    cout<<"Olma = "<<Olma*Product3<<endl;
-    cout<<"Limon = "<<Limon*Product4<<endl;
-    cout<<"Pepsi = "<<Pepsi*Product5<<endl;
+    cout<<"Kartoshka = "<<Kartoshka*Product1<<" so'm"<<endl;
+    cout<<"Piyoz = "<<Piyoz*Product2<<" so'm"<<endl;
+    cout<<"Olma = "<<Olma*Product3<<" so'm"<<endl;
+    cout<<"Limon = "<<Limon*Product4<<" so'm"<<endl;
+    cout<<"Pepsi = "<<Pepsi*Product5<<" so'm"<<endl;
     int summa=Kartoshka*Product1+Piyoz*Product2+Olma*Product3+Limon*Product4+Pepsi*Product5;
-    cout<<"Jami = "<<summa<<endl;
-    cout<<"QQS = "<<summa*0.12<<endl;
+    cout<<"Jami = "<<summa<<" so'm"<<endl;
+    cout<<"QQS = "<<summa*0.12<<" so'm"<<endl;
 
 
 }
